@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(image1.jpeg);
+    background-size:  cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.form-box{
+    width: 500px;
+    background-image: url(image2.gif);
+    margin: 12% auto;
+    padding: 50px 0;
+    color: rgb(201, 3, 3);
+    box-shadow: 0 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+h1{
+   text-align: center;
+   margin-bottom: 50px; 
+   animation: text 1s ease-in-out infinite;
+}
+@keyframes text{
+    50%{
+        color: black;
+    }
+}
+.input-box{
+margin: 20px auto;
+width: 170px;
+border-bottom: 1px solid rgb(255, 255, 255);
+padding-top: 1px;
+padding-bottom: 1px;
+}
+.input-box input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: red;
+}
+input{
+    margin: 20px auto 1px;
+    width: 50%;
+    display: block;
+    outline: none;
+    padding: 1px 0;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    animation: text 1s ease-in-out infinite;
+}
+@keyframes text{
+    50%{
+        color: black;
+    }
+}
